@@ -1,4 +1,4 @@
-var fsh2 = document.getElementById("fish2")
-fsh2.addEventListener("click",function(){
- alert("Goodbye!")
+var fish2 = document.getElementById("fish2")
+fish2.addEventListener("click",function(){
+  alert("goodbye!!")
 })
