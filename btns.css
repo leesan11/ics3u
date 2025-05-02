@@ -1,6 +1,8 @@
 /* css file */
 /* WOWZA WAHOO */
 
-.hypatia{
+#hypatia{
+    height: auto;
+    width: 50px;
     padding: 10;
 }
