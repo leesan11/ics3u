@@ -1,7 +1,11 @@
 //gurl mathers - Hypatia
 
-var hyp = document.getElementById('hypatia')
-let hyp = document.createElement('button')
-hyp('click',function(){
-    
+var hyp = document.getElementById('h-dropdown')
+var instances;
+var open;
+
+hyp.addEventListener('click', function () {
+    alert('yay!')
 })
+
+
