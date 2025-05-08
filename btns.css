@@ -2,16 +2,16 @@
 /* WOWZA WAHOO */
 
 /* Hypatia section */
-#h-img{
+#h-img {
     height: auto;
     width: 250px;
     padding-left: 50px;
     cursor: pointer;
 }
 
-.hypatia{
+.hypatia {
     border: none;
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -20,13 +20,29 @@
     padding: 5px 5px 5px 5px;
 }
 
-#h-dropdown{
+#h-dropdown {
     rotate: 180;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
 }
 
-.collapsible-header{
-    background-color: black;
-    width: 100px;
-}
+.active, .h-dropdown:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
 
 /*end of Hypatia section*/
